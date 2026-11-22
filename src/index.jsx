@@ -5,7 +5,11 @@ const e1= document.getElementById('root')
 const root= createRoot(e1)
 
 export function App(){
-    return(<h1>hi</h1>)
+    const name ="marziyeh mohammadi"
+    let num = Math.random()
+    return(<h1>{name} {num}
+    {new Date().toLocaleTimeString()}
+    </h1>)
 }
 
 root.render(
